@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WeatherToday-Help</title>
+    <link rel="icon" href="/img/icon.png">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+        <h2>Weather for {{place}}</h2>
+        <h3>Country: {{location}}</h3>
+        <h3>State: {{state}}</h3>
+        <h3>Timezone: {{time_zone}}</h3>
+        <img src="{{icon}}">
+        <p>
+            {{weather}}
+        </p>
+    </div>
+
+    {{>footer}}
+</body>
+
+</html>

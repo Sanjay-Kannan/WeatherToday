@@ -1,0 +1,104 @@
+body {
+    background-image: url(https://cutewallpaper.org/21/sky-blue-texture/sky-blue-texture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: inherit;
+    margin: 0 auto;
+    padding: 0 16px;
+    text-align: center;
+    cursor: default;
+
+    display: flex;
+    flex-direction: column ;
+    min-height: 100vh;
+}
+#define {
+    color: purple;
+}
+#head {
+    text-align: center;
+}
+header {
+    color: purple;
+    padding-left: 16px;
+
+}
+footer {
+    color: maroon;
+    border-top: 1px solid #000000;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+header {
+     margin-top: 16px;
+     margin-bottom: 48px;
+}
+h1 {
+    font-size: 64px;
+    margin-bottom: 37px;
+    margin-top: -16px;
+}
+.portrait {
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+}
+
+header a:link {
+    color:purple;
+    margin-right: 16px;
+    text-decoration: none;
+}
+header a:visited {
+    color:purple
+}
+header a:hover {
+    text-decoration: underline;
+    color: royalblue;
+}
+.main-content {
+    flex-grow: 1;
+}
+input {
+    border: 1px solid #573E74;
+    padding: 8px;
+    border-radius: 10px;
+}
+button {
+    cursor: pointer;
+    background: purple;
+    border: 1px solid brown;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.navigator {
+    background-color: whitesmoke;
+    padding: 8px;
+    
+}
+ul {
+    list-style: none;
+}
+.content {
+    color: indigo;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#comment {
+    padding-top: 10px;
+    padding-right: 75px;
+    padding-bottom: 100px;
+    margin-bottom: 16px;
+}
+#comment-submit {
+    margin-left: -196px;
+}
+.about-h2 {
+    color: indigo;
+    font-weight: bold;
+}
